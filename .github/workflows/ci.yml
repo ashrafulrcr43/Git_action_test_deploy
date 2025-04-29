@@ -96,7 +96,7 @@ jobs:
                 pm2 status
                 # delete node-app process
 
-                pm2 delete Font End || true
+                pm2 delete Font Page || true
 
                 # pm2 restart all
 
@@ -117,7 +117,6 @@ jobs:
                 #pm2 delete node-app || true
 
                 # pm2 restart all
-
 
                 # Create a Background process name node-app
                 #pm2 start "npm start" --name="node-app"
