@@ -6,11 +6,6 @@ on:
   push:
 
 
-
-on:
-  push:
-
-
   
 jobs:
     test:
