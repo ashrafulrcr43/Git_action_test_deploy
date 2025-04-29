@@ -70,5 +70,5 @@ jobs:
           pm2 save
       - name: Create remote folder and hello.txt
         run: |
-          mkdir -p build
-          echo "Hello git action" > build/hello.txt
+          mkdir -p /home/ashraful/build
+          echo "Hello git action" > /home/ashraful/build/hello.txt
